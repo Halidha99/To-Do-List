@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #094444;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MarksTaskViewController">
+   <children>
+      <TableView fx:id="tblViewTask" layoutX="54.0" layoutY="86.0" prefHeight="200.0" prefWidth="500.0">
+        <columns>
+          <TableColumn fx:id="colid" prefWidth="100.79998779296875" text="id" />
+          <TableColumn fx:id="coltittle" prefWidth="116.0" text="title" />
+            <TableColumn fx:id="coldescription" prefWidth="143.99993896484375" text="description" />
+            <TableColumn fx:id="coldate" prefWidth="139.99993896484375" text="date" />
+        </columns>
+      </TableView>
+      <Label layoutX="225.0" layoutY="27.0" prefHeight="18.0" prefWidth="232.0" text="View Tasks" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="117.0" layoutY="314.0" mnemonicParsing="false" onAction="#btnReloadOnAction" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: rgba(87, 95, 207,1.0);" text="Reload" textFill="#fcfafa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="249.0" layoutY="314.0" mnemonicParsing="false" onAction="#btnUpdateOnAction" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: rgba(255, 168, 1,1.0);" text="Update" textFill="#fffdfd">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="396.0" layoutY="314.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: rgba(245, 59, 87,1.0);" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

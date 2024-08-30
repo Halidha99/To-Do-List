@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddTaskController">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="608.0" prefWidth="834.0" style="-fx-background-color: #094444;">
+         <children>
+            <Rectangle arcHeight="70.0" arcWidth="70.0" fill="#4d6071" height="63.0" layoutX="45.0" layoutY="26.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="411.0" />
+            <ImageView fitHeight="46.0" fitWidth="50.0" layoutX="79.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/images.jpeg" />
+               </image>
+            </ImageView>
+            <Label layoutX="222.0" layoutY="36.0" prefHeight="18.0" prefWidth="152.0" text="Fathima Halidha" textAlignment="CENTER" textFill="#fffefe" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="196.0" layoutY="58.0" prefHeight="18.0" prefWidth="203.0" text="fathimahalidha94@gmail.com" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="136.0" layoutY="144.0" prefHeight="18.0" prefWidth="185.0" text="TO DO LIST :" textFill="WHITE">
+               <font>
+                  <Font name="David Libre Bold" size="25.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="chkbxtask1" layoutX="113.0" layoutY="209.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="6.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask2" layoutX="113.0" layoutY="269.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="21.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask3" layoutX="113.0" layoutY="328.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="23.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask4" layoutX="113.0" layoutY="384.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="22.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="txttask" layoutX="102.0" layoutY="512.0" prefHeight="28.0" prefWidth="310.0" promptText="      Add Task">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <AnchorPane layoutX="412.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="422.0">
+               <children>
+                  <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#99d4de" height="487.0" stroke="BLACK" strokeType="INSIDE" width="422.0" />
+                  <Label layoutX="167.0" layoutY="23.0" prefHeight="18.0" prefWidth="215.0" text="My Day">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="94.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/icons8-star-50.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="174.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/icons8-box-50.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="241.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/icons8-user-32.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="305.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/icons8-home-24.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="29.0" layoutX="250.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../image/icons8-to-do-list-100.png" />
+                     </image>
+                  </ImageView>
+                  <CheckBox fx:id="chk11" layoutX="94.0" layoutY="148.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="250.0" style="-fx-background-color: #84a2a2;" />
+                  <CheckBox fx:id="chk21" layoutX="94.0" layoutY="192.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" style="-fx-background-color: #84a2a2;" />
+                  <CheckBox fx:id="chk31" layoutX="94.0" layoutY="244.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" style="-fx-background-color: #84a2a2;" />
+                  <CheckBox fx:id="chk41" layoutX="94.0" layoutY="288.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" style="-fx-background-color: #84a2a2;" />
+                  <CheckBox fx:id="chk5" layoutX="94.0" layoutY="337.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="250.0" style="-fx-background-color: #84a2a2;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </CheckBox>
+               </children>
+            </AnchorPane>
+            <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#99d4de" height="487.0" layoutX="412.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="422.0" />
+            <Label fx:id="lblMyDay" layoutX="579.0" layoutY="123.0" prefHeight="18.0" prefWidth="215.0" text="My Day">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="506.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8-star-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="586.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8-box-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="653.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8-user-32.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="717.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8-home-24.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="29.0" layoutX="662.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8-to-do-list-100.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="703.0" layoutY="535.0" mnemonicParsing="false" onAction="#btnViewOnAction" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: rgba(255, 221, 89,1.0);" text="View ">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="304.0" layoutY="550.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="26.0" prefWidth="108.0" style="-fx-background-color: rgba(5, 196, 107,1.0);" text="ADD">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="514.0" mnemonicParsing="false" onAction="#btnTaskAddOnAction" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: rgba(15, 188, 249,1.0);" text="TaskADD" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="lbltask1" layoutX="160.0" layoutY="217.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: rgba(34, 47, 62,1.0);" textFill="WHITE" />
+            <Label fx:id="lbltask2" layoutX="160.0" layoutY="276.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: rgba(34, 47, 62,1.0);" textFill="WHITE" />
+            <Label fx:id="lbltask3" layoutX="160.0" layoutY="339.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: rgba(34, 47, 62,1.0);" textFill="WHITE" />
+            <Label fx:id="lbltask4" layoutX="160.0" layoutY="395.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: rgba(34, 47, 62,1.0);" textFill="WHITE" />
+            <Label fx:id="lbltask5" layoutX="160.0" layoutY="451.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: rgba(34, 47, 62,1.0);" textFill="WHITE" />
+            <CheckBox fx:id="chkbxtask5" layoutX="113.0" layoutY="447.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="22.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask6" layoutX="478.0" layoutY="232.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="6.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask7" layoutX="478.0" layoutY="292.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="21.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask8" layoutX="478.0" layoutY="351.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="23.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="chkbxtask9" layoutX="478.0" layoutY="407.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="22.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <Label fx:id="lbltask11" layoutX="525.0" layoutY="240.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: #84a2a2;" textFill="WHITE" />
+            <Label fx:id="lbltask21" layoutX="525.0" layoutY="299.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: #84a2a2;" textFill="WHITE" />
+            <Label fx:id="lbltask31" layoutX="525.0" layoutY="362.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: #84a2a2;" textFill="WHITE" />
+            <Label fx:id="lbltask41" layoutX="525.0" layoutY="418.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: #84a2a2;" textFill="WHITE" />
+            <Label fx:id="lbltask51" layoutX="525.0" layoutY="474.0" prefHeight="31.0" prefWidth="232.0" style="-fx-background-color: #84a2a2;" textFill="WHITE" />
+            <CheckBox fx:id="chkbxtask10" layoutX="478.0" layoutY="470.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="22.0" textFill="#fffcfc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <Label fx:id="lblFull" layoutX="41.0" layoutY="561.0" prefHeight="38.0" prefWidth="232.0" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="157.0" layoutY="553.0" mnemonicParsing="false" onAction="#btnFinishOnAction" prefHeight="25.0" prefWidth="108.0" text="Finish" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
